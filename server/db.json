@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "john_doe",
+      "email": "john@example.com",
+      "name": "John Doe",
+      "password": "password123",
+      "avatar": "https://example.com/profiles/john.jpg",
+      "banner": "https://example.com/profiles/john.jpg",
+      "bio": "Web developer and coffee enthusiast.",
+      "follows": [
+        {
+          "userId": 2,
+          "created_at": "2024-02-20T11:00:00Z"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 2,
+          "add_at": "2024-02-20T11:00:00Z"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-15T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "userName": "jane_smith",
+      "email": "jane@example.com",
+      "name": "Jane Smith",
+      "password": "janePassword456",
+      "avatar": "https://example.com/profiles/jane.jpg",
+      "banner": "https://example.com/profiles/jane.jpg",
+      "bio": "Graphic designer and music lover.",
+      "follows": [
+        {
+          "userId": 1,
+          "created_at": "2024-03-01T09:00:00Z"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 1,
+          "add_at": "2024-03-01T09:00:00Z"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-16T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "userName": "mike_jones",
+      "email": "mike@example.com",
+      "name": "Mike Jones",
+      "password": "mikePass789",
+      "avatar": "https://example.com/profiles/mike.jpg",
+      "banner": "https://example.com/profiles/mike.jpg",
+      "bio": "Fitness trainer and blogger.",
+      "follows": [
+        {
+          "userId": 1,
+          "created_at": "2024-03-05T12:00:00Z"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 2,
+          "add_at": "2024-03-05T12:00:00Z"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-17T12:00:00Z"
+    }
+  ]
+}
